@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2741CC26C07EE600BE8503 /* GumbaProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741B926C07EE400BE8503 /* GumbaProject.swift */; };
+		5D2741CD26C07EE600BE8503 /* GumbaProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741B926C07EE400BE8503 /* GumbaProject.swift */; };
+		5D2741CE26C07EE600BE8503 /* News_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741BA26C07EE400BE8503 /* News_Screen.swift */; };
+		5D2741CF26C07EE600BE8503 /* News_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741BA26C07EE400BE8503 /* News_Screen.swift */; };
+		5D2741D026C07EE600BE8503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2741BB26C07EE600BE8503 /* Assets.xcassets */; };
+		5D2741D126C07EE600BE8503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2741BB26C07EE600BE8503 /* Assets.xcassets */; };
+		5D2741DC26C0C8C300BE8503 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 5D2741DB26C0C8C300BE8503 /* SwiftyJSON */; };
+		5D2741DF26C0C8ED00BE8503 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5D2741DE26C0C8ED00BE8503 /* SDWebImage */; };
+		5D2741E126C0C96A00BE8503 /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741E026C0C96A00BE8503 /* NewsAPI.swift */; };
+		5D2741E226C0C96A00BE8503 /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741E026C0C96A00BE8503 /* NewsAPI.swift */; };
+		5D2741E826C0CA3D00BE8503 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5D2741E726C0CA3D00BE8503 /* SDWebImageMapKit */; };
+		5D2741EB26C0CAA800BE8503 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5D2741EA26C0CAA800BE8503 /* SDWebImageSwiftUI */; };
+		5D2741ED26C0CACD00BE8503 /* NASA_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741EC26C0CACD00BE8503 /* NASA_API.swift */; };
+		5D2741EE26C0CACD00BE8503 /* NASA_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741EC26C0CACD00BE8503 /* NASA_API.swift */; };
+		5D2741F026C0D05A00BE8503 /* Dog_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741EF26C0D05A00BE8503 /* Dog_Screen.swift */; };
+		5D2741F126C0D05A00BE8503 /* Dog_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2741EF26C0D05A00BE8503 /* Dog_Screen.swift */; };
+		5D2CB88426CA2084006452F1 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CB88326CA2084006452F1 /* TabView.swift */; };
+		5D2CB88526CA2084006452F1 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2CB88326CA2084006452F1 /* TabView.swift */; };
+		5D4D4F3F26D2FCB500D9F59A /* BetterDogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D4F3E26D2FCB500D9F59A /* BetterDogAPI.swift */; };
+		5D4D4F4026D2FCB500D9F59A /* BetterDogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D4F3E26D2FCB500D9F59A /* BetterDogAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D2741B926C07EE400BE8503 /* GumbaProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumbaProject.swift; sourceTree = "<group>"; };
+		5D2741BA26C07EE400BE8503 /* News_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_Screen.swift; sourceTree = "<group>"; };
+		5D2741BB26C07EE600BE8503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D2741C026C07EE600BE8503 /* Gumba_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gumba_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2741C326C07EE600BE8503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2741C826C07EE600BE8503 /* Gumba_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gumba_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2741CA26C07EE600BE8503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2741CB26C07EE600BE8503 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5D2741E026C0C96A00BE8503 /* NewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPI.swift; sourceTree = "<group>"; };
+		5D2741EC26C0CACD00BE8503 /* NASA_API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASA_API.swift; sourceTree = "<group>"; };
+		5D2741EF26C0D05A00BE8503 /* Dog_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog_Screen.swift; sourceTree = "<group>"; };
+		5D2CB88326CA2084006452F1 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		5D4D4F3E26D2FCB500D9F59A /* BetterDogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterDogAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2741BD26C07EE600BE8503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2741EB26C0CAA800BE8503 /* SDWebImageSwiftUI in Frameworks */,
+				5D2741DF26C0C8ED00BE8503 /* SDWebImage in Frameworks */,
+				5D2741E826C0CA3D00BE8503 /* SDWebImageMapKit in Frameworks */,
+				5D2741DC26C0C8C300BE8503 /* SwiftyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2741C526C07EE600BE8503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2741B326C07EE400BE8503 = {
+			isa = PBXGroup;
+			children = (
+				5D2741B826C07EE400BE8503 /* Shared */,
+				5D2741C226C07EE600BE8503 /* iOS */,
+				5D2741C926C07EE600BE8503 /* macOS */,
+				5D2741C126C07EE600BE8503 /* Products */,
+				5D2741E626C0CA3D00BE8503 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D2741B826C07EE400BE8503 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5D2CB88326CA2084006452F1 /* TabView.swift */,
+				5D2741BA26C07EE400BE8503 /* News_Screen.swift */,
+				5D2741EF26C0D05A00BE8503 /* Dog_Screen.swift */,
+				5D2741E026C0C96A00BE8503 /* NewsAPI.swift */,
+				5D4D4F3E26D2FCB500D9F59A /* BetterDogAPI.swift */,
+				5D2741EC26C0CACD00BE8503 /* NASA_API.swift */,
+				5D2741B926C07EE400BE8503 /* GumbaProject.swift */,
+				5D2741BB26C07EE600BE8503 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5D2741C126C07EE600BE8503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2741C026C07EE600BE8503 /* Gumba_Project.app */,
+				5D2741C826C07EE600BE8503 /* Gumba_Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D2741C226C07EE600BE8503 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D2741C326C07EE600BE8503 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		5D2741C926C07EE600BE8503 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D2741CA26C07EE600BE8503 /* Info.plist */,
+				5D2741CB26C07EE600BE8503 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5D2741E626C0CA3D00BE8503 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D2741BF26C07EE600BE8503 /* Gumba_Project (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2741D426C07EE600BE8503 /* Build configuration list for PBXNativeTarget "Gumba_Project (iOS)" */;
+			buildPhases = (
+				5D2741BC26C07EE600BE8503 /* Sources */,
+				5D2741BD26C07EE600BE8503 /* Frameworks */,
+				5D2741BE26C07EE600BE8503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gumba_Project (iOS)";
+			packageProductDependencies = (
+				5D2741DB26C0C8C300BE8503 /* SwiftyJSON */,
+				5D2741DE26C0C8ED00BE8503 /* SDWebImage */,
+				5D2741E726C0CA3D00BE8503 /* SDWebImageMapKit */,
+				5D2741EA26C0CAA800BE8503 /* SDWebImageSwiftUI */,
+			);
+			productName = "Gumba_Project (iOS)";
+			productReference = 5D2741C026C07EE600BE8503 /* Gumba_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D2741C726C07EE600BE8503 /* Gumba_Project (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2741D726C07EE600BE8503 /* Build configuration list for PBXNativeTarget "Gumba_Project (macOS)" */;
+			buildPhases = (
+				5D2741C426C07EE600BE8503 /* Sources */,
+				5D2741C526C07EE600BE8503 /* Frameworks */,
+				5D2741C626C07EE600BE8503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gumba_Project (macOS)";
+			productName = "Gumba_Project (macOS)";
+			productReference = 5D2741C826C07EE600BE8503 /* Gumba_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D2741B426C07EE400BE8503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5D2741BF26C07EE600BE8503 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					5D2741C726C07EE600BE8503 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D2741B726C07EE400BE8503 /* Build configuration list for PBXProject "Gumba_Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D2741B326C07EE400BE8503;
+			packageReferences = (
+				5D2741DA26C0C8C300BE8503 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				5D2741DD26C0C8ED00BE8503 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				5D2741E926C0CAA800BE8503 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 5D2741C126C07EE600BE8503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D2741BF26C07EE600BE8503 /* Gumba_Project (iOS) */,
+				5D2741C726C07EE600BE8503 /* Gumba_Project (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D2741BE26C07EE600BE8503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2741D026C07EE600BE8503 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2741C626C07EE600BE8503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2741D126C07EE600BE8503 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D2741BC26C07EE600BE8503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2741F026C0D05A00BE8503 /* Dog_Screen.swift in Sources */,
+				5D2741CE26C07EE600BE8503 /* News_Screen.swift in Sources */,
+				5D2741CC26C07EE600BE8503 /* GumbaProject.swift in Sources */,
+				5D2741E126C0C96A00BE8503 /* NewsAPI.swift in Sources */,
+				5D2CB88426CA2084006452F1 /* TabView.swift in Sources */,
+				5D2741ED26C0CACD00BE8503 /* NASA_API.swift in Sources */,
+				5D4D4F3F26D2FCB500D9F59A /* BetterDogAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2741C426C07EE600BE8503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2741F126C0D05A00BE8503 /* Dog_Screen.swift in Sources */,
+				5D2741CF26C07EE600BE8503 /* News_Screen.swift in Sources */,
+				5D2741CD26C07EE600BE8503 /* GumbaProject.swift in Sources */,
+				5D2741E226C0C96A00BE8503 /* NewsAPI.swift in Sources */,
+				5D2CB88526CA2084006452F1 /* TabView.swift in Sources */,
+				5D2741EE26C0CACD00BE8503 /* NASA_API.swift in Sources */,
+				5D4D4F4026D2FCB500D9F59A /* BetterDogAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D2741D226C07EE600BE8503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D2741D326C07EE600BE8503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5D2741D526C07EE600BE8503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XGVGZ88YPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "AventureTrading.Gumba-Project";
+				PRODUCT_NAME = Gumba_Project;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D2741D626C07EE600BE8503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XGVGZ88YPN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "AventureTrading.Gumba-Project";
+				PRODUCT_NAME = Gumba_Project;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D2741D826C07EE600BE8503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XGVGZ88YPN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AventureTrading.Gumba-Project";
+				PRODUCT_NAME = Gumba_Project;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D2741D926C07EE600BE8503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XGVGZ88YPN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AventureTrading.Gumba-Project";
+				PRODUCT_NAME = Gumba_Project;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D2741B726C07EE400BE8503 /* Build configuration list for PBXProject "Gumba_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2741D226C07EE600BE8503 /* Debug */,
+				5D2741D326C07EE600BE8503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2741D426C07EE600BE8503 /* Build configuration list for PBXNativeTarget "Gumba_Project (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2741D526C07EE600BE8503 /* Debug */,
+				5D2741D626C07EE600BE8503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2741D726C07EE600BE8503 /* Build configuration list for PBXNativeTarget "Gumba_Project (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2741D826C07EE600BE8503 /* Debug */,
+				5D2741D926C07EE600BE8503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D2741DA26C0C8C300BE8503 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		5D2741DD26C0C8ED00BE8503 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.1;
+			};
+		};
+		5D2741E926C0CAA800BE8503 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D2741DB26C0C8C300BE8503 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D2741DA26C0C8C300BE8503 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		5D2741DE26C0C8ED00BE8503 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D2741DD26C0C8ED00BE8503 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5D2741E726C0CA3D00BE8503 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D2741DD26C0C8ED00BE8503 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		5D2741EA26C0CAA800BE8503 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D2741E926C0CAA800BE8503 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D2741B426C07EE400BE8503 /* Project object */;
+}
