@@ -38,8 +38,8 @@ class NASA_APICalls{
     ]
     
     func imageOfTheDay(){
-        let api_key = "h1CaejUiKHqQ22lhhIwXyaXA3yCVKB0NioX9Vkms"
-        let endpoint = "https://api.nasa.gov/planetary/apod?api_key=\(api_key)"
+        let api_key = ProcessInfo.processInfo.environment["NASA_API_Key"]
+        let endpoint = "https://api.nasa.gov/planetary/apod?api_key=\(String(describing: api_key))"
         
         guard let url = URL(string: endpoint) else {
             print("Trouble parsing url")

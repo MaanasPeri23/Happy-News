@@ -35,8 +35,7 @@ class headLineCalls: ObservableObject{
         let api_key = "ca6af828213d4f7db9370b3374209c3e"
         //topic related to apple
         //figure out what topics am i going to need
-        let topic_endpoint = "https://newsapi.org/v2/everything?q=tech&pageSize=100&language=en&apiKey=\(api_key)"
-        //let topic_endpoint = "https://newsapi.org/v2/top-headlines?country=us&apiKey=\(api_key)"
+        let topic_endpoint = "https://newsapi.org/v2/everything?q=tech&pageSize=100&language=en&apiKey=\(String(describing: ProcessInfo.processInfo.environment["News_API_Key"]))"
         
         guard let url = URL(string: topic_endpoint) else {
             print("Error creating url object")
@@ -118,7 +117,7 @@ class headLineCalls: ObservableObject{
     }
     
 //    func topic_call(topic: String){
-//        let api_key = "ca6af828213d4f7db9370b3374209c3e"
+//        let api_key = ""
 //        //topic related to apple
 //        let topic_endpoint = "https://newsapi.org/v2/top-headlines?q=\(topic)&apiKey=\(api_key)"
 //

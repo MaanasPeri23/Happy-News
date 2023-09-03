@@ -132,12 +132,12 @@ class DogAPICalls: ObservableObject {
     }
     
     func getRandoDoggo(){
-        let headers = ["x-api-key": "ee884e66-23e5-4c76-a28b-5d7a428206ca"]
+        let headers = ["x-api-key": ProcessInfo.processInfo.environment["Dog_API_Key"]]
 
         let sampleTemperamentResponses = ["I see you reading this. I'm Batman.",
-                                          "Tendency to keel Momos and other squishmellows",
-                                          "Tendency to be an absolute badass and a fucking unit on the battlefield",
-                                          "Tendency to be a stoopid floofy moodi"
+                                          "Pretend this is a insighftul doggo characteristic",
+                                          "German Shephard >>>> this breed",
+                                          "Asdfg"
         ]
 
         guard let url = URL(string: "https://api.thedogapi.com/v1/images/search") else {
@@ -147,7 +147,7 @@ class DogAPICalls: ObservableObject {
 
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        request.allHTTPHeaderFields = headers
+        request.allHTTPHeaderFields = (headers as! [String: String])
 
         URLSession.shared.dataTask(with: request){ data, response, error in
 
@@ -169,7 +169,7 @@ class DogAPICalls: ObservableObject {
             }catch{
                 self.dictionary["name"] = "Idk we'll find out soon"
                 self.dictionary["bred_for"] = "Entertainment. Idfk I SAID THAT WE WILL IDENTIFY HIM LATER"
-                self.dictionary["breed_group"] = "Doesn't matter he is happy doggo stop asking questions bish"
+                self.dictionary["breed_group"] = "Doesn't matter he is happy doggo stop asking questions"
                 self.dictionary["temperament"] = sampleTemperamentResponses.randomElement()
                 print((error.localizedDescription))
             }
