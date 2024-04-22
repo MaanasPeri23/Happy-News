@@ -1,4 +1,4 @@
-# Gumba Project
+# Gumba Project (deployed for alpha users)
 Gumba Project is an iOS app built with SwiftUI that combines two main features: a dog image gallery and a news feed. This project showcases various skills in iOS development, including SwiftUI, API integration, data modeling, third-party library usage, and natural language processing. This project helped understand more front-end IOS concepts than my other Swift Projects, and I hope to continue expanding my skillsets on SwiftUI as well as IOS development as a whole.
 
 ## Features
@@ -42,5 +42,4 @@ Build and run the app on the iOS Simulator or a physical device.
 Note: Before running the app, make sure to obtain API keys for the Dog API, TheDogAPI, and News API, and add them to the appropriate places in the code.
 
 Contributing:
-Contributions to the Gumba Project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 Contributions to the Gumba Project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
