@@ -1,5 +1,5 @@
-# Gumba Project (deployed for alpha users)
-Gumba Project is an iOS app built with SwiftUI that combines two main features: a dog image gallery and a news feed. This project showcases various skills in iOS development, including SwiftUI, API integration, data modeling, third-party library usage, and natural language processing. This project helped understand more front-end IOS concepts than my other Swift Projects, and I hope to continue expanding my skillsets on SwiftUI as well as IOS development as a whole.
+# Gumba Project (deployed with 2 active alpha users)
+Gumba Project is an iOS app built with SwiftUI that combines two main features: a dog image gallery and a news feed. This project showcases various skills in iOS development, including SwiftUI, API integration, data modeling, third-party library usage, and natural language processing. This project helped me understand more front-end IOS concepts than my other Swift Projects, and I hope to continue expanding my skillsets on SwiftUI as well as IOS development as a whole.
 
 ## Features
 
@@ -10,7 +10,7 @@ Allows users to refresh and view new dog images and breed information with a sim
 
 2. News Feed
 Integrates with the News API (https://newsapi.org/) to fetch and display news articles related to technology.
-Performs sentiment analysis on article titles using Apple's NaturalLanguage framework.
+Performs sentiment analysis on article titles using Apple's Natural Language framework.
 Displays only articles with positive sentiment, providing a curated list of uplifting tech news.
 Allows users to open and read full articles in their default web browser.
 
@@ -30,6 +30,7 @@ Data Modeling: Ability to create data models using Swift's Codable protocol and 
 Third-party Library Integration: Knowledge of integrating and using third-party libraries to enhance app functionality.
 Modular Design: Understanding of modular design principles and separating concerns in code organization.
 Natural Language Processing: Basic understanding of natural language processing techniques, such as sentiment analysis, using Apple's NaturalLanguage framework.
+App Store Connect: Understanding of how to deploy applications and add users to the beta testing pool. Looking forward to extracting deeper insights from my user activity.
 
 Getting Started
 To run the Gumba Project on your local machine, follow these steps:
